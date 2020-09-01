@@ -56,7 +56,7 @@ class colorImage:
             cv2.imshow('image', self.BGR_Image)
             cv2.waitKey(0)
 result=colorImage()
-result.displayProperties()
+#result.displayProperties()
 result.makeGray()
 result.colorizeRGB()
 result.makehue()
