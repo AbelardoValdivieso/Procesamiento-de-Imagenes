@@ -40,7 +40,7 @@ if __name__ == '__main__':
 
     #error cuadrático medio con el filtro gaussiano para lena_gauss_noisy
     ECM_filtrogaussiano_gauss = ecm(image_gaussiano_gauss,lena_gauss_noisy)
-    print("error cuadrático medio con el filtro gaussiano para lena_gauss_noisy: ", ECM_filtrogaussiano_gauss)
+        print("error cuadrático medio con el filtro gaussiano para lena_gauss_noisy: ", ECM_filtrogaussiano_gauss)
     cv2.imshow("lena_Gauss", lena_gauss_noisy)
     cv2.imshow("lena_Gauss filtro gaussiano", image_gaussiano_gauss)
     cv2.imshow("estimacion del ruido con filtro gaussiano", imagen_noise_gaussiano_lenagauss)
